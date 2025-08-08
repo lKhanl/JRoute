@@ -27,7 +27,7 @@ jobs:
         run: mvn clean install
 
   deploy:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/master')
     needs: build
     runs-on: ubuntu-latest
 
