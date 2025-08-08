@@ -22,17 +22,6 @@ Its goal is to let you build web servers with minimal code and maximum control.
 ### Simple Example
 
 ```java
-import com.github.jroute.JRoute;
-import com.github.jroute.annotations.GET;
-import com.github.jroute.annotations.POST;
-import com.github.jroute.annotations.Path;
-import com.github.jroute.annotations.RequestBody;
-import com.github.jroute.annotations.ResponseBody;
-import com.github.jroute.annotations.RestController;
-import com.github.jroute.http.HttpRequest;
-import com.github.jroute.http.HttpResponse;
-import dev.khan.annotations.Controller;
-
 @Controller
 public class MyController {
     
