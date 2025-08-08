@@ -12,7 +12,16 @@ Its goal is to let you build web servers with minimal code and maximum control.
 
 ---
 
-## 🚀 Usage
+## 🚀 Getting Started
+
+### Maven Dependency
+```xml
+<dependency>
+    <groupId>dev.khan</groupId>
+    <artifactId>jroute</artifactId>
+    <version>0.0.1</version>
+</dependency>
+```
 
 ### Simple Example
 
@@ -62,3 +71,15 @@ public class Main {
 - [ ] Logging support (request/response logging)
 - [ ] Error handling support (custom error pages)
 - [ ] Dependency injection support
+
+## 🛠️ Contributing
+
+Contributions are welcome! If you'd like to contribute to JRoute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix (git checkout -b feature-name)
+3. Commit your changes (git commit -m "Add some feature")
+4. Push to your branch (git push origin feature-name)
+5. Open a pull request describing your changes
+
+Please make sure your code follows the existing style and includes tests if applicable.
