@@ -3,14 +3,10 @@
 jroute — a **lightweight**, **dependency-free**, and **easy-to-use** HTTP framework written in Java.  
 Its goal is to let you build web servers with minimal code and maximum control.
 
----
-
 ## ✨ Features
 - **Zero dependencies** — runs on plain Java SE.
 - **Simple routing** — easily define HTTP methods like `GET` and `POST`.
 - **Minimal API** — easy to learn and use.
-
----
 
 ## 🚀 Getting Started
 
